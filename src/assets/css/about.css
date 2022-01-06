@@ -3,14 +3,14 @@
     display: block;
     margin: auto;
     background-color: white;
-    padding: 3em;
+    padding: 6.5em 3em;
     border-radius: 20px;
     -webkit-box-shadow: 0px 5px 12px 5px rgba(0,0,0,0.09); 
     box-shadow: 0px 5px 12px 5px rgba(0,0,0,0.09);
 }
 
 .miImage {
-    width: 100%;
+    width: 71%;
     max-width: 23em;
     border-radius: var(--borderRadius);
     display: block;
@@ -30,9 +30,12 @@
 }
 
 .aboutDescription {
-    padding: 3rem;
+    padding: 4rem;
     padding-bottom: 0;
     font-size: 1.4rem;
+}
+.aboutDescription p{
+    padding: 1.3em 0;
 }
 
 .dest{
@@ -41,9 +44,9 @@
 
 .aboutInfo .h1{
     text-transform: uppercase;
-    font-size: 5rem;
-    line-height: 4.4rem;
-    color: var(--MiBlueRGBA);
+    font-size: 3rem;
+    line-height: 3.4rem;
+    color: var(--miBlue);
     margin: 2rem 0;
     letter-spacing: 2px;
 }
@@ -56,6 +59,9 @@
 .aboutInfo .h3 {
     font-size: 3rem;
     margin: 0;
+    padding: 0 4rem;
+    color: var(--miGray2)
+
 }
 
 .Conocimientos{
@@ -86,8 +92,19 @@
     font-size: 1.5rem;
 }
 
-hr {
-    border: 1px solid var(--miBlue);
+
+.hrprincipal, .hrConocimientos {
+    height: 4px;
+    border: 0px;
+    background-color: var(--miBlue);
+    border-radius: 2px;
+}
+.hrConocimientos {
+    height: 2px;
+    margin: .3em 0;
+}
+
+.hrprincipal{
     margin: 4.5em 0;
 }
 
@@ -96,4 +113,100 @@ hr {
     text-transform: uppercase;
     font-size: 1.1rem;
     letter-spacing: 0.1rem;
+}
+
+.and{
+    color: var(--miGray);
+    opacity: .5;
+}
+
+.videoSection video{
+    width: 100%;
+    border-radius: var(--borderRadius);
+}
+
+.TestImage{
+    width: 100%;
+    max-width: 250px;
+    border-radius: var(--borderRadius);
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  
+
+
+@media (max-width: 965px){
+
+    .leftImage, .rightText {
+        display: block;
+        width: 100%;
+    }
+
+    .rightText{
+        text-align: center;
+    }
+    .aboutInfo {
+        border-radius: 0;
+    }
+
+    .aboutDescription {
+        padding: 2.1rem;
+    }
+
+    .aboutInfo .h2 {
+        font-size: 1.9rem;
+    }
+
+    .navigationProyects {
+        flex-flow: column;
+    }
+
+    .TestImage {
+        margin: 2em 0;
+    }
+}
+
+@media (max-width: 600px){
+
+    .aboutInfo .h1{
+        line-height: 3rem;
+    }
+
+    .aboutDescription {
+        padding: 0.9rem;
+    }
+    .miImage {
+        width: 80%;
+    }
+
+    
 }

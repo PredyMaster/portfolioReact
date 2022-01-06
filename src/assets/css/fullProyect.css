@@ -6,21 +6,53 @@
     justify-content: center;
     flex-flow: column;
     text-align: center;
-    background-color: lightgray;
     padding: 0 1.5em;
 }
 
 .navigationProyects{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
+
 .miButton{
     border: none;
-    background-color: var(--miBlue);
+    background-color: var(--miGray);
     color: white;
     font-size: 1.5rem;
     padding: 1em 2em;
     margin: 0 1em;
+    border-radius: var(--borderRadius);
+    height: 3.5em;
+    cursor: pointer;
+}
 
+.proyectTit .h2{
+    margin: 1.5em 0 0;
+    font-size: 5em;
+    color: var(--miBlue);
+}
+
+.description{
+    font-size: 2em;
+    margin: 2em;
+    color: var(--miGray2);
+    text-align: left;
+}
+
+.h4FullProyect{
+    color: var(--miGray);
+}
+
+.cliente{
+    color: var(--miGray2);
+}
+
+.FullContentProyect .img1_FullProyect{
+    margin-top: 6em;
+}
+
+.imgsFullPoyects{
+    margin: 3em 0;
     border-radius: var(--borderRadius);
 }

@@ -38,15 +38,17 @@ const FullProyect = (jsonParams) => {
 
     useEffect(() => {
         
+        console.log(workURL);
+
         listWorks.works.map(works => {
 
-            if(workURL == null && works.id == 1){ setSelecJSON(works) }
+            if(workURL === null || works.id === 1){ setSelecJSON(works) }
 
-            if(works.urlName == workURL){ setSelecJSON(works) }
+            if(works.urlName === workURL){ setSelecJSON(works) }
 
-            if(Number(works.id) == calculaSiguiente()){ setNextJSON(works) }
+            if(Number(works.id) === calculaSiguiente()){ setNextJSON(works) }
 
-            if(Number(works.id) == calculaAnterior()){ setPreviousJSON(works) }
+            if(Number(works.id) === calculaAnterior()){ setPreviousJSON(works) }
             
         }) 
 
@@ -60,17 +62,20 @@ const FullProyect = (jsonParams) => {
 
                 <div className="navigationProyects">
                     <button className="navLeft miButton" onClick={handlePrev}>Anterior</button>
+
+                    <img loading="lazy" alt="Thumbnail" className="TestImage scale-in-center" src={selectJSON.path} />
+
                     <button className="navRight miButton" onClick={handleNext}>Siguiente</button>
                 </div>
                 
-                <div className="proyectCoverImage">
+                {/* <div className="proyectCoverImage">
                     <img loading="lazy" className="TestImage" src={selectJSON.path} />
-                </div>
+                </div> */}
                 
                 <div className="proyectTit">
                     <h2 className="h2">{selectJSON.name}</h2>
-                    <h4 className="h4">Cliente: {selectJSON.client}</h4>
-                    <p className="description"> {selectJSON.description}</p>
+                    <h4 className="h4FullProyect">Cliente: <span className='cliente'>{selectJSON.client}</span></h4>
+                    <p className="description">{selectJSON.description}</p>
                 </div>
                 
                 {/* <p>Item anterior: {previousJSON.id + previousJSON.urlName} / Item actual: {selectJSON.id + selectJSON.urlName} / Item siguiente: {nextJSON.id + nextJSON.urlName}</p> */}
@@ -79,7 +84,6 @@ const FullProyect = (jsonParams) => {
             </div>   
 
             
-
             {selectJSON.video &&
 
                 <React.Fragment>
@@ -101,9 +105,11 @@ const FullProyect = (jsonParams) => {
 
             }
 
-            
-            
+            <img className='img1_FullProyect imgsFullPoyects' src={selectJSON.img1} />
 
+            <img className='img2_FullProyect imgsFullPoyects' src={selectJSON.img2} />
+
+            
         </div>
 
     )

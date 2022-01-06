@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-h1 {
+.h1Principal {
   font-size: 0.75rem;
   letter-spacing: 10px;
   color: rgba(0,0,0,.5);
@@ -23,12 +23,18 @@ h1 {
 
 }
 
-h2 {
+.h1Principal::selection {
+  background-color: var(--miGray);
+  color: white;
+}
+
+
+.h2Principal {
   letter-spacing: 4px;
   font-weight: 300;
-  color: #212529;
+  color: var(--miGray2);
   font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2em;
   line-height: 1.2;
 }
 

@@ -1,0 +1,19 @@
+.footer{
+    background-color: var(--miGray2);
+    height: 5em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12em;
+}
+
+.logo_Predy{
+    width: 90px;
+    filter: blur(0.3px);
+}
+
+.iconRedesS{
+    width: 40px;
+    margin: 0 4em
+}

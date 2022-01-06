@@ -1,8 +1,10 @@
 :root {
   --miBlue: #4695e2;
   --miGray: #4c4c4c;
-  --borderRadius: 4px;
-  --MiBlueRGBA: rgba(70, 149, 226, 0.9);
+  --miGray2:#212529;
+  --background: #f8f9fa;
+  --borderRadius: 10px;
+  --MiBlueRGBA: rgba(70, 149, 226, 0.3);
   --MiGrayRGBA: rgba(76, 76, 76, 0.4);
   --MaxWidth: 63em;
 }
@@ -21,8 +23,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  /* border-right: 1px solid var(--miGray); */
+
   font-weight: 400;
-  background: #f8f9fa;
+  background: var(--background);
+
+  scrollbar-face-color:fuchsia;
+  scrollbar-highlight-color:yellow;
+  scrollbar-3dlight-color:orange;
+  scrollbar-darkshadow-color:darkblue;
+  scrollbar-shadow-color:gray;
+  scrollbar-arrow-color:yellow;
+  scrollbar-track-color:aqua;
 }
 
 code {
@@ -30,6 +42,28 @@ code {
     monospace;
 }
 
+::selection {
+  background-color: var(--miBlue);
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  width: 45px;               /* width of the entire scrollbar */
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;         /*color of the tracking area */
+  cursor: pointer;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--miBlue);    /* color of the scroll thumb */
+  border-radius: 11px;       /* roundness of the scroll thumb */
+  border: 8px solid white;
+  margin-left: 2px;
+  cursor: pointer;
+}
 
 
 

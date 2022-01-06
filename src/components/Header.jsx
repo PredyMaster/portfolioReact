@@ -6,8 +6,8 @@ const Header = () => {
     
     return(
         <header className="header">
-            <h1 className="h1 tracking-in-expand">JUANMA PASCUAL</h1>
-            <h2 className="h2 tracking-in-expand">PORTFOLIO</h2>
+            <h1 className="h1Principal tracking-in-expand">JUANMA PASCUAL</h1>
+            <h2 className="h2Principal tracking-in-expand">PORTFOLIO</h2>
 
             {/* Menu -->*/}
             <nav id="menu">

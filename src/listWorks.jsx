@@ -1,11 +1,13 @@
 import cover_Clotilde from './assets/images/covers/Cover_Clotilde.jpg';
 import thumb_Clotilde from './assets/images/works/01_Clotilde/Thumb/Clotilde_fest.jpg';
+import img1_Clotilde from './assets/images/works/01_Clotilde/Clotilde_fest_1.jpg';
+import img2_Clotilde from './assets/images/works/01_Clotilde/Clotilde_fest_2.jpg';
 import video_Clotilde from './assets/images/works/01_Clotilde/Clotilde_fest.mp4';
 
 
 import cover_Futurama from './assets/images/covers/Cover_Que_sera.jpg';
 import thumb_Futurama from './assets/images/works/02_Que_sera/Thumb/Que_sera.jpg';
-import video_Futurama from './assets/images/works/02_Que_sera/Que_sera_mañana.mp4';
+import video_Futurama from './assets/images/works/02_Que_sera/Que_sera_manana.mp4';
 
 
 import cover_Slime from './assets/images/covers/Cover_Slime.jpg';
@@ -36,6 +38,8 @@ export default {
           'name': 'Camiseta',
           'client': 'paco',
           'thumb' : thumb_Clotilde,
+          'img1': img1_Clotilde,
+          'img2': img2_Clotilde,
           'video': video_Clotilde,
           'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit ',
         },
