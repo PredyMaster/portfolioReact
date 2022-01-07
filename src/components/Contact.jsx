@@ -23,7 +23,7 @@ const Contact = () => {
                 <p className="text-bg">
                 { runCallback(() => {
                     const row = [];
-                    for (var i = 0; i < 305; i++) {
+                    for (var i = 0; i < 304; i++) {
                     row.push(<span key={i}>{mail}</span>);
                     }
                     return row;

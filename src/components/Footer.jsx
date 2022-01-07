@@ -7,11 +7,17 @@ import IcoLinke from '../assets/images/generic/IcoLinke.png';
 const Footer = () => {
     
     return(
-        <footer className="footer">
-            <a href="https://www.behance.net/predy"  target="_blank" rel="noreferrer"><img className="IcoBehance iconRedesS" alt="ico Behance" src={IcoBehance} /></a>
-            <a href="https://www.youtube.com/watch?v=qCpazlUJSEg" target="_blank" rel="noreferrer"><img className="logo_Predy" alt="logo Predy" src={logo_Predy} /></a>
-            <a href="https://www.linkedin.com/in/juanma-pascual" target="_blank" rel="noreferrer"><img className="IcoLinke iconRedesS" alt="ico Linkedin" src={IcoLinke} /></a>
-        </footer>
+        <React.Fragment>
+            <div className="scrollContent">
+                <a className="scrollUp" href ="#">➜</a>
+            </div>
+
+            <footer className="footer">
+                <a href="https://www.behance.net/predy"  target="_blank" rel="noreferrer"><img className="IcoBehance iconRedesS" alt="ico Behance" src={IcoBehance} /></a>
+                <a href="https://www.youtube.com/watch?v=qCpazlUJSEg" target="_blank" rel="noreferrer"><img className="logo_Predy" alt="logo Predy" src={logo_Predy} /></a>
+                <a href="https://www.linkedin.com/in/juanma-pascual" target="_blank" rel="noreferrer"><img className="IcoLinke iconRedesS" alt="ico Linkedin" src={IcoLinke} /></a>
+            </footer>
+        </React.Fragment>
     )
 }
 

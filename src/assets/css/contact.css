@@ -11,13 +11,14 @@
     font-size: 12px;
     line-height: 12px;
     background: url(https://predy.es/images/Predys.jpg);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, .1);
     position: relative;
     background-position: center;
+    margin-bottom: 4em;
 }
 
 .title {
@@ -51,3 +52,20 @@
     color: white;
     text-decoration: none;
 }
+
+
+
+@media (max-width: 900px){
+
+}
+
+@media (max-width: 576px){
+
+    .Bloque_Contact {
+        max-width: 78vw;
+    }
+    .text-bg {
+        height: 30em;
+    }
+}
+

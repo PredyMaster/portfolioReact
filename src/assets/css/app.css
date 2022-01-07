@@ -1,8 +1,4 @@
 
-.header{
-  padding: 5% 0;
-  text-align: center;
-}
 .header, .footer{
   width: 100%;
   background-color: var(--miGray);
