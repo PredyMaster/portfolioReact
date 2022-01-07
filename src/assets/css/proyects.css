@@ -206,6 +206,10 @@ a img:hover{
     padding: 2em;
 }
 
+.spaceVideos{
+  margin: 3em 0;
+}
+
 @media (max-width: 900px){
     .linkProyect {
         -webkit-box-flex: 0;

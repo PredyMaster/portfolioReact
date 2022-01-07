@@ -38,8 +38,6 @@ const FullProyect = (jsonParams) => {
 
     useEffect(() => {
         
-        console.log(workURL);
-
         listWorks.works.map(works => {
 
             if(workURL === null || works.id === 1){ setSelecJSON(works) }
@@ -83,31 +81,96 @@ const FullProyect = (jsonParams) => {
                 
             </div>   
 
+            {console.clear()}
+            {console.log(selectJSON)}
+            {console.log(selectJSON.video2)}
+            {console.log(typeof(selectJSON.video2))}
+
+            {selectJSON.video2 != '' ?  console.log("TIENE VIDEO") : console.log("NO Tiene video")}
+            {console.log(selectJSON.hasOwnProperty("video"))}
+
+            
+            
+
             
             {selectJSON.video &&
 
                 <React.Fragment>
-                    <div className="hr"></div>
+                    
 
-                    <div className="videoSection">
-                        {/* <video poster={selectJSON.thumb} controls="" data-video="0">
-                        <source src={selectJSON.video} type="video/mp4">
-                            Tu navegador no carga videos, actualizate.
-                        </source>
-                    </video> */}
-                        <video className="video" poster={selectJSON.thumb} src={selectJSON.video} controls="controls">Tu no navegador no carga videos, ¿en que año vives? actualízate</video>
+                    
 
-                    </div>
+                    {selectJSON.hasOwnProperty("video") &&
+                        <React.Fragment>
+                            <div className="videoSection">
+                                <video className="video" poster={selectJSON.thumb} src={selectJSON.video} controls="controls">Tu no navegador no carga videos, ¿en que año vives? actualízate</video>
+                            </div>
 
-                    <div className="hr"></div>
+                            <div className="spaceVideos"></div>
+                    </React.Fragment>            
+                    }
+
+                    {selectJSON.hasOwnProperty("video2") &&
+                        <React.Fragment>
+                            <div className="videoSection">
+                                <video className="video" poster={selectJSON.thumb2} src={selectJSON.video2} controls="controls">Tu no navegador no carga videos, ¿en que año vives? actualízate</video>
+                            </div>
+
+                            <div className="spaceVideos"></div>
+                    </React.Fragment>            
+                    }
+
+                    {selectJSON.hasOwnProperty("video3") &&
+                        <React.Fragment>
+                            <div className="videoSection">
+                                <video className="video" poster={selectJSON.thumb3} src={selectJSON.video3} controls="controls">Tu no navegador no carga videos, ¿en que año vives? actualízate</video>
+                            </div>
+
+                            <div className="spaceVideos"></div>
+                        </React.Fragment>            
+                    }
+
+                    
+
+                    {selectJSON.hasOwnProperty("video4") &&
+                        <React.Fragment>
+                            <div className="videoSection">
+                                <video className="video" poster={selectJSON.thumb4} src={selectJSON.video4} controls="controls">Tu no navegador no carga videos, ¿en que año vives? actualízate</video>
+                            </div>
+
+                            <div className="spaceVideos"></div>
+                        </React.Fragment>            
+                    }
+                    
                 
                 </React.Fragment>
 
             }
 
-            <img className='img1_FullProyect imgsFullPoyects' src={selectJSON.img1} />
+            {selectJSON.img1 &&
+                <img className='img1_FullProyect imgsFullPoyects' src={selectJSON.img1} />
+            }
 
-            <img className='img2_FullProyect imgsFullPoyects' src={selectJSON.img2} />
+            {selectJSON.img2 &&
+                <img className='img2_FullProyect imgsFullPoyects' src={selectJSON.img2} />
+            }
+
+            {selectJSON.img3 &&
+                <img className='img3_FullProyect imgsFullPoyects' src={selectJSON.img3} />
+            }
+
+            {selectJSON.img4 &&
+                <img className='img4_FullProyect imgsFullPoyects' src={selectJSON.img4} />
+            }
+
+            {selectJSON.img5 &&
+                <img className='img5_FullProyect imgsFullPoyects' src={selectJSON.img5} />
+            }
+
+            {selectJSON.img6 &&
+                <img className='img6_FullProyect imgsFullPoyects' src={selectJSON.img6} />
+            }
+            
 
             
         </div>

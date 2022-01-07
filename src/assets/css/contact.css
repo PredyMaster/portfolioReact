@@ -1,0 +1,53 @@
+.content {
+    text-align: center;
+    background: var(--miGray2);
+    overflow: hidden;
+    position: relative;
+    max-width: 1200px;
+}
+
+.text-bg {
+    
+    font-size: 12px;
+    line-height: 12px;
+    background: url(https://predy.es/images/Predys.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, .1);
+    position: relative;
+    background-position: center;
+}
+
+.title {
+    font-size: 150px;
+    color: rgba(255, 255, 255, .1);
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    
+}
+
+.Bloque_Contact {
+    display: block;
+    margin: auto;
+    max-width: 48vw;
+    border-radius: var(--borderRadius);
+    overflow: hidden;
+}
+
+.ContactCard {
+    text-align: center;
+    padding: 0.6em 1em;
+    font-size: 2vw;
+    border-radius: 10px;
+    z-index: 2;
+    color: white;
+    display: block;
+}
+
+.ContactCard a{
+    color: white;
+    text-decoration: none;
+}
