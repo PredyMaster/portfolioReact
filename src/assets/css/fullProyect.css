@@ -6,7 +6,7 @@
     justify-content: center;
     flex-flow: column;
     text-align: center;
-    padding: 0 1.5em;
+    padding: 1.5em;
 }
 
 .navigationProyects{
@@ -25,6 +25,10 @@
     border-radius: var(--borderRadius);
     height: 3.5em;
     cursor: pointer;
+}
+.miButton:hover{
+    transform: scale(1.075);
+    transition: all .3s ease;
 }
 
 .proyectTit .h2{
@@ -55,4 +59,18 @@
 .imgsFullPoyects{
     margin: 3em 0;
     border-radius: var(--borderRadius);
+}
+
+
+@media (max-width: 965px){
+
+}
+
+@media (max-width: 600px){
+
+    .FullContentProyect .img1_FullProyect{
+        margin-top: 0;
+    }
+    
+    
 }

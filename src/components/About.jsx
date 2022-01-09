@@ -35,27 +35,27 @@ const About = () => {
                 <div className="Conocimientos">
                     
                     <div class="contentSoftware">
-                        <div class="bloque bloque1">
+                        <div class="bloqueAzul bloque1">
                             <b>Diseño</b>
                             <hr className="hrConocimientos" />
                             <p className="software">Adobe Photoshop</p>
                             <p className="software">Adobe Illustrator</p>
                         </div>
 
-                        <div class="bloque bloque2">
+                        <div class="bloqueAzul bloque2">
                             <b>Video</b>
                             <hr className="hrConocimientos" />
                             <p className="software">Adobe After Effects</p>
                             <p className="software">Adobe Premiere Pro</p>
                             <p className="software">Adobe Media Encoder</p>
                         </div>
-                        <div class="bloque bloque3">
+                        <div class="bloqueAzul bloque3">
                             <b>Sonido</b>
                             <hr className="hrConocimientos" />
                             <p className="software">Reaper</p>
                             <p className="software">Adobe Audition</p>
                         </div>
-                        <div class="bloque bloque4">
+                        <div class="bloqueAzul bloque4">
                             <b>3D</b>
                             <hr className="hrConocimientos" />
                             <p className="software">Cinema4D</p>
@@ -73,24 +73,24 @@ const About = () => {
                 <div className="Conocimientos">
                     
                     <div class="contentSoftware">
-                        <div class="bloque bloque1">
+                        <div class="bloqueGris bloque1">
                             <p className="software">HTML5</p>
                             <p className="software">CSS3</p>
                             <p className="software">Javascript</p>
                         </div>
 
-                        <div class="bloque bloque2">
+                        <div class="bloqueGris bloque2">
                             <p className="software">React</p>
                             <p className="software">jQuery</p>
                             <p className="software">Bootstrap</p>
                             
                         </div>
-                        <div class="bloque bloque3">
+                        <div class="bloqueGris bloque3">
                             <p className="software">SASS</p>
                             <p className="software">MySQL</p>
                             <p className="software">SQL</p>
                         </div>
-                        <div class="bloque bloque4">
+                        <div class="bloqueGris bloque4">
                             <p className="software">Git</p>
                             <p className="software">PHP</p>
                             <p className="software">Node.js</p>

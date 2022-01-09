@@ -5,6 +5,7 @@ import '../assets/css/header.css'
 const Header = () => {
     
     return(
+
         <header className="header">
             <h1 className="h1Principal tracking-in-expand">JUANMA PASCUAL</h1>
             <h2 className="h2Principal tracking-in-expand">PORTFOLIO</h2>
@@ -16,7 +17,7 @@ const Header = () => {
                             <NavLink exact to="/" activeClassName="active">Inicio</NavLink>
                         </li>
                         <li>
-                            <NavLink exact to="/proyects" activeClassName="active">Trabajos</NavLink>
+                            <NavLink exact to="/proyects?work=Clotilde" activeClassName="active">Trabajos</NavLink>
                         </li>
                         <li>
                             <NavLink exact to="/about" activeClassName="active">Sobre mi</NavLink>
@@ -32,6 +33,7 @@ const Header = () => {
 
                 <div className="hr"></div>
         </header>
+
     )
 }
 

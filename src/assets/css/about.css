@@ -75,8 +75,7 @@
     flex-flow: wrap;
 }
 
-.bloque {
-    background: var(--miGray);
+.bloqueGris, .bloqueAzul {
     width: 35%;
     display: inline-block;
     margin: 2rem;
@@ -86,15 +85,26 @@
     vertical-align: text-top;
     min-height: 9rem;
 }
+.bloqueGris {
+    background: var(--miGray);
+}
+.bloqueAzul{
+    background: var(--miBlue);
+}
+.bloqueAzul .hrConocimientos {
+    background-color: white;
+    height: 2px;
+}
 
 .software{
     margin: 0;
     font-size: 1.5rem;
+    margin-left: 1em;
 }
 
 
 .hrprincipal, .hrConocimientos {
-    height: 4px;
+    height: 3px;
     border: 0px;
     background-color: var(--miBlue);
     border-radius: 2px;
@@ -105,7 +115,7 @@
 }
 
 .hrprincipal{
-    margin: 4.5em 0;
+    margin: 3.5em 0;
 }
 
 .contentSoftware b{
@@ -193,6 +203,14 @@
     .TestImage {
         margin: 2em 0;
     }
+    .software{
+        margin-left: 0;
+    }
+
+    .bloqueGris, .bloqueAzul {
+        width: 70%;
+        display: block;
+    }
 }
 
 @media (max-width: 600px){
@@ -207,6 +225,18 @@
     .miImage {
         width: 80%;
     }
+    
+    .bloqueAzul {
+        background: var(--miBlue);
+    }
+    .bloqueGris, .bloqueAzul {
+        width: 80%;
+    }
+    .aboutInfo .h3 {
+        padding: 0 1rem;
+        line-height: 1em;
+    }
+    
 
     
 }

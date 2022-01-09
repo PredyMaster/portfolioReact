@@ -14,11 +14,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, .1);
     position: relative;
     background-position: center;
     margin-bottom: 4em;
+
+    background-position: 25% 24%;
 }
 
 .title {
@@ -51,11 +54,30 @@
 .ContactCard a{
     color: white;
     text-decoration: none;
+    font-size: 1.8rem;
+}
+.ContactCard a:hover{
+    color: var(--miBlue);
+}
+
+a.minilink{
+    text-decoration: none;
+}
+a.minilink:hover{
+    color: var(--miBlue);
+    -webkit-text-fill-color: rgba(70, 149, 226, 1);
+    -webkit-text-fill-color: rgba(255, 255, 255, 1);
+    
 }
 
 
 
+
+
 @media (max-width: 900px){
+    .Bloque_Contact {
+        max-width: 78vw;
+    }
 
 }
 
@@ -63,9 +85,12 @@
 
     .Bloque_Contact {
         max-width: 78vw;
+        margin-bottom: 3em;
     }
     .text-bg {
         height: 30em;
+        overflow: hidden;
     }
+    
 }
 

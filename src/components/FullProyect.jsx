@@ -40,7 +40,7 @@ const FullProyect = (jsonParams) => {
         
         listWorks.works.map(works => {
 
-            if(workURL === null || works.id === 1){ setSelecJSON(works) }
+            if(workURL === null || works.id === 1){ setSelecJSON(works); console.log("bingo") }
 
             if(works.urlName === workURL){ setSelecJSON(works) }
 
@@ -80,16 +80,7 @@ const FullProyect = (jsonParams) => {
                 
                 
             </div>   
-
-            {console.clear()}
-            {console.log(selectJSON)}
-            {console.log(selectJSON.video2)}
-            {console.log(typeof(selectJSON.video2))}
-
-            {selectJSON.video2 != '' ?  console.log("TIENE VIDEO") : console.log("NO Tiene video")}
-            {console.log(selectJSON.hasOwnProperty("video"))}
-
-            
+           
             
 
             

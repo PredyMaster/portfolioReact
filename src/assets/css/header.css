@@ -1,12 +1,73 @@
 .header{
   padding: 5% 0;
   text-align: center;
-  transform: scale(1.2);
+  
 }
 
 #menu a::selection {
   background-color: var(--miGray);
   color: white;
+}
+
+.header, .footer{
+  width: 100%;
+  background-color: var(--miGray);
+  background-color: inherit;
+  color: white;
+  text-align: center;
+}
+
+.h1Principal {
+  font-size: 1.025rem;
+  letter-spacing: 10px;
+  color: rgba(0,0,0,.5);
+
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+
+}
+
+.h1Principal::selection {
+  background-color: var(--miGray);
+  color: white;
+}
+
+
+.h2Principal {
+  letter-spacing: 4px;
+  font-weight: 300;
+  color: var(--miGray2);
+  font-size: 3rem;
+  margin-bottom: 0.2em;
+  line-height: 1.2;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+li a{
+  text-decoration: none;
+  color: rgba(0,0,0,.5);
+  padding: 1rem;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+li a:hover{
+  color: black;  
+}
+.active{
+  color: var(--miBlue);
+  
 }
 
 .tracking-in-expand {
@@ -39,3 +100,28 @@
     }
   }
   
+
+
+@media (max-width: 900px){
+
+  .h1Principal {
+    font-size: .75rem;
+  }
+  .h2Principal {
+    font-size: 2.5rem;
+  }
+  li a {
+    font-size: 1.1em;
+  }
+
+
+}
+
+@media (max-width: 576px){
+  .h1Principal {
+    margin-top: 3em;
+  }
+  li a {
+    font-size: 1em;
+  }
+}

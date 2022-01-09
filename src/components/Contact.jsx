@@ -24,7 +24,7 @@ const Contact = () => {
                 { runCallback(() => {
                     const row = [];
                     for (var i = 0; i < 304; i++) {
-                    row.push(<span key={i}>{mail}</span>);
+                    row.push(<a className="minilink" href="mailto:juanmailpascual@gmail.com" target="_blank" key={i}>{mail}</a>);
                     }
                     return row;
                 }) }
