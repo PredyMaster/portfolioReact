@@ -35,6 +35,7 @@
     margin: 1.5em 0 0;
     font-size: 5em;
     color: var(--miBlue);
+    line-height: 1em;
 }
 
 .description{
