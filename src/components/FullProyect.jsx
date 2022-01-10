@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useLocation, useHistory } from 'react-router-dom';
+import { useLocation, useHistory } from 'react-router-dom';
 import listWorks from '../listWorks';
 import '../assets/css/fullProyect.css';
 
 const FullProyect = (jsonParams) => {
 
-    const { nameProyect } = useParams();
-    const [ nameURL, setNameUrl] = useState({});
+    /* const { nameProyect } = useParams();
+    const [ nameURL, setNameUrl] = useState({}); */
     const [ selectJSON, setSelecJSON] = useState({});
     const [ previousJSON, setPreviousJSON] = useState({});
     const [ nextJSON, setNextJSON] = useState({});
@@ -21,7 +21,7 @@ const FullProyect = (jsonParams) => {
     const handleNext = () => { history.push({search: `?work=${nextJSON.urlName}`}) } 
 
     const calculaSiguiente = () => {      
-        if(selectJSON.id == listWorks.works.length){
+        if(parseInt(selectJSON.id) === listWorks.works.length){
             return(1);
         }else{
             return(Number(selectJSON.id) + 1)
@@ -29,7 +29,7 @@ const FullProyect = (jsonParams) => {
     }
    
     const calculaAnterior = () => {
-        if(selectJSON.id == 1){
+        if(selectJSON.id === 1){
             return(listWorks.works.length);
         }else{
             return(Number(selectJSON.id) - 1)
@@ -40,7 +40,7 @@ const FullProyect = (jsonParams) => {
         
         listWorks.works.map(works => {
 
-            if(workURL === null || works.id === 1){ setSelecJSON(works); console.log("bingo") }
+            if(workURL === null || works.id === 1){ setSelecJSON(works);}
 
             if(works.urlName === workURL){ setSelecJSON(works) }
 
@@ -48,6 +48,7 @@ const FullProyect = (jsonParams) => {
 
             if(Number(works.id) === calculaAnterior()){ setPreviousJSON(works) }
             
+            return null;
         }) 
 
     }); 
@@ -139,27 +140,27 @@ const FullProyect = (jsonParams) => {
             }
 
             {selectJSON.img1 &&
-                <img className='img1_FullProyect imgsFullPoyects' src={selectJSON.img1} />
+                <img className='img1_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img1} />
             }
 
             {selectJSON.img2 &&
-                <img className='img2_FullProyect imgsFullPoyects' src={selectJSON.img2} />
+                <img className='img2_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img2} />
             }
 
             {selectJSON.img3 &&
-                <img className='img3_FullProyect imgsFullPoyects' src={selectJSON.img3} />
+                <img className='img3_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img3} />
             }
 
             {selectJSON.img4 &&
-                <img className='img4_FullProyect imgsFullPoyects' src={selectJSON.img4} />
+                <img className='img4_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img4} />
             }
 
             {selectJSON.img5 &&
-                <img className='img5_FullProyect imgsFullPoyects' src={selectJSON.img5} />
+                <img className='img5_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img5} />
             }
 
             {selectJSON.img6 &&
-                <img className='img6_FullProyect imgsFullPoyects' src={selectJSON.img6} />
+                <img className='img6_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img6} />
             }
             
 

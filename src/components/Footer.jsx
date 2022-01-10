@@ -9,7 +9,7 @@ const Footer = () => {
     return(
         <React.Fragment>
             <div className="scrollContent">
-                <a className="scrollUp" href ="#">➜</a>
+                <a className="scrollUp" alt="scroll up" href ="#">➜</a>
             </div>
 
             <footer className="footer">

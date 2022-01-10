@@ -1,16 +1,15 @@
 import React from "react";
 import "../assets/css/about.css"
-import about from "../about";
-import react from "react";
+import aboutInfo from "../aboutInfo";
 
 const About = () => {
 
     return(
-        <react.Fragment>
+        <React.Fragment>
             <div className="aboutInfo">
 
                 <div className="leftImage">
-                    <img className="miImage scale-in-center" src={about.image} />
+                    <img className="miImage scale-in-center" alt="Predy_image" src={aboutInfo.image} />
                 </div>
 
                 <div className="rightText">
@@ -104,7 +103,7 @@ const About = () => {
 
             </div>
         
-        </react.Fragment>
+        </React.Fragment>
     )
 }
 
