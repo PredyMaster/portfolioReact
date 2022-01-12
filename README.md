@@ -1,4 +1,4 @@
-<div style="text-align:center" align="center">![Logo](https://predy.es//WebPredy_Backup_JSvanilla/images/Predy_logo_Azul.png)</div>
+<div align="center">![Logo](https://predy.es//WebPredy_Backup_JSvanilla/images/Predy_logo_Azul.png)</div>
 
 # Portfolio Predy
 
