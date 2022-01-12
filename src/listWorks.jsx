@@ -1,7 +1,11 @@
 import cover_Clotilde from './assets/images/covers/Cover_Clotilde.jpg';
 import thumb_Clotilde from './assets/images/works/01_Clotilde/Thumb/Clotilde_fest.jpg';
 import img1_Clotilde from './assets/images/works/01_Clotilde/Clotilde_fest_1.jpg';
-import img2_Clotilde from './assets/images/works/01_Clotilde/Clotilde_fest_2.jpg';
+import img2_Clotilde from './assets/images/works/01_Clotilde/Clotilde_fest_2.gif';
+import img3_Clotilde from './assets/images/works/01_Clotilde/Clotilde_fest_3.jpg';
+import img4_Clotilde from './assets/images/works/01_Clotilde/Clotilde_fest_4.jpg';
+import img5_Clotilde from './assets/images/works/01_Clotilde/Clotilde_fest_5.jpg';
+import img6_Clotilde from './assets/images/works/01_Clotilde/Clotilde_fest_6.jpg';
 import video_Clotilde from './assets/images/works/01_Clotilde/Clotilde_fest.mp4';
 
 import cover_Futurama from './assets/images/covers/Cover_Que_sera.jpg';
@@ -115,24 +119,31 @@ export default {
           'cover': 'Cover_Clotilde.jpg',
           'path': cover_Clotilde,
           'urlName': 'Clotilde',
-          'name': 'Clotilde fest',
+          'name': 'Clotilde festival',
           'client': 'Generalitat de Catalunya',
           'thumb' : thumb_Clotilde,
           'img1': img1_Clotilde,
           'img2': img2_Clotilde,
+          'img3': img3_Clotilde,
+          'img4': img4_Clotilde,
+          'img5': img5_Clotilde,
+          'img6': img6_Clotilde,
           'video': video_Clotilde,
-          'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit ',
+          'description': 'El Palau Robert necesitaba crear una imagen de marca para su nuevo festival de música irreverente y actual, el Clotilde Fest. Dentro del programa Palau Joven, este festival se basa en el activismo de género, con mucho Swag y sin miedo de salir de la zona de confort.',
+          'description2': 'Como Clotilde Cerdà, quien hace más de 100 años, sin pedir permiso ni perdón, dejó todas sus comodidades para hacer lo que le daba la gana: música y feminismo trasatlántico.',
+          'description3': 'Así que, con la ayuda del artista 3D Diego Gómez, se creó Clotilde, que junto con la tipografía flexible y moderna se convierte en un símbolo de los valores del festival y refleja su espíritu innovador e inconformista.',
         },
         {
           'id': '2',
           'cover': 'Cover_Que_sera.jpg',
           'path': cover_Futurama,
           'urlName': 'Futurama',
-          'name': '¿Que será mañana?',
+          'name': '¿Qué será mañana?',
           'client': 'Personal',
           'thumb' : thumb_Futurama,
           'video' : video_Futurama,
-          'description': '22 Lorem ipsum dolor sit amet, consectetur adipiscing elit 22, 22 Lorem ipsum dolor sit amet, consectetur adipiscing elit 22, 22 Lorem ipsum dolor sit amet, consectetur adipiscing elit 22',
+          'description': 'Este proyecto nace con la intención de hacer un videoclip con temática futurista, y haciendo uso de la ilustración, acercamos toda la estética de Futurama para dar vida a este clip de rap en Español.',
+          'description2': 'La canción tiene el titulo de "¿Qué será Mañana?" y está disponible desde mi canal de Youtube.',
         },
         {
           'id': '3',
@@ -145,7 +156,8 @@ export default {
           'img1' : img1_Slime,
           'img2' : img2_Slime, 
           'video': video_Slime,
-          'description': '33 Lorem ipsum dolor sit amet, consectetur adipiscing elit 33, 33 Lorem ipsum dolor sit amet, consectetur adipiscing elit 33, 33 Lorem ipsum dolor sit amet, consectetur adipiscing elit 33',
+          'description': 'Un día me levanté por una pesadilla en la que soñé que iba por la calle y todos los elementos se derretían, los bancos, las farolas, los coches...',
+          'description2': 'Tras pasar el mal rato, me tomé un café y decidí plasmar esa estética en un diseño, y de ahí sale \'Slimer\' esta pieza que busca plasmar la esencia de ese sueño.',
         },
         {
           'id': '4',
@@ -158,7 +170,10 @@ export default {
           'img1' : img1_UGT,
           'img2' : img2_UGT,
           'video': video_UGT,
-          'description': '44 Lorem ipsum dolor sit amet, consectetur adipiscing elit 44, 44 Lorem ipsum dolor sit amet, consectetur adipiscing elit 44, 44 Lorem ipsum dolor sit amet, consectetur adipiscing elit 44',
+          'description': 'El año 2019 marca el 100 aniversario de la obtención de la jornada de ocho horas después de las protestas laborales en Barcelona, un evento de extrema importancia no sólo en Cataluña o España, sino en Europa y el mundo.', 
+          'description2': 'En febrero de 1919, se inició la huelga contra la empresa eléctrica Riegos y Fuerzas del Ebro, perteneciente a Barcelona Traction, Light and Power Company, Limited, mejor conocida en España como ‘La Canadiense‘ o ‘La Canadenca‘, en catalán.',
+          'description3': 'Al principio, se debió al despido de ocho oficinistas quienes habían sido hechos fijos pero con un salario menor, y quienes se negaron a trabajar bajo esas condiciones en una ciudad tan cara, mientras los empresarios catalanes se enriquecían desproporcionadamente con sus ventas durante la Primera Guerra Mundial.',
+          'description4': 'Con motivo de este centenario, UGT nos pidió que hiciéramos un video animado para recordar tal evento, al final optamos por una estética muy minimalista para plasmar este concepto.',
         },
         {
           'id': '5',
@@ -172,7 +187,8 @@ export default {
           'img2' : img2_Mataro,
           'img3' : img3_Mataro,
           'video': video_Mataro,
-          'description': '55 Lorem ipsum dolor sit amet, consectetur adipiscing elit 55, 55 Lorem ipsum dolor sit amet, consectetur adipiscing elit 55, 55 Lorem ipsum dolor sit amet, consectetur adipiscing elit 55',
+          'description': 'El ayuntamiento de Mataró se pone en contacto con nosotros para hacer un comunicado a la población informando que han recibido una inyección de capital y van a destinar estos recursos ampliando las ayudas que ofrecen, más zonas verdes y más servicios para Mataró.',
+          'description2': 'Para ello nos piden pequeñas cápsulas de Motion Graphics que implementarán en medios para comunicar que la ciudad está creciendo.',
         },
         {
           'id': '6',
@@ -187,7 +203,8 @@ export default {
           'img3' : img3_36Days,
           'img4' : img4_36Days,
           'video': '',
-          'description': '66 Lorem ipsum dolor sit amet, consectetur adipiscing elit 66, 66 Lorem ipsum dolor sit amet, consectetur adipiscing elit 66, 66 Lorem ipsum dolor sit amet, consectetur adipiscing elit 66',
+          'description': 'La fascinación que provoca la forma de las letras, verdadero vehículo comunicativo de nuestra era, da como resultado iniciativas como esta en las que deberemos reinterpretar gráficamente las letras y números de nuestro alfabeto en un maratón sin descanso.',
+          'description2': '36 Days of Type es un proyecto que invita a diseñadores, ilustradores y artistas gráficos a que aporten su visión de las letras y números que forman nuestro alfabeto. Es un proyecto que pretende ser un espacio para la creación en torno a la tipografía y sus infinitas posibilidades gráficas.',
         },
         {
           'id': '7',
@@ -200,7 +217,8 @@ export default {
           'img1' : img1_Crash,
           'img2' : img2_Crash,
           'video': video_Crash,
-          'description': '77 Lorem ipsum dolor sit amet, consectetur adipiscing elit 77, 77 Lorem ipsum dolor sit amet, consectetur adipiscing elit 77, 77 Lorem ipsum dolor sit amet, consectetur adipiscing elit 55',
+          'description': 'Romper, romper, romper, ¿Cómo quedan las cosas destruidas? Esta premisa es suficiente para comenzar este proyecto y buscar está estética en el mundo del lettering 3D.',
+          'description2': 'Es un proyecto personal que nace como reto creativo, intentando utilizar la deconstrucción a favor del diseño.',
         },
         {
           'id': '8',
@@ -213,28 +231,30 @@ export default {
           'img1' : img1_Conecta2,
           'img2' : img2_Conecta2,
           'video': video_Conecta2,
-          'description': '88 Lorem ipsum dolor sit amet, consectetur adipiscing elit 88, 77 Lorem ipsum dolor sit amet, consectetur adipiscing elit 77, 77 Lorem ipsum dolor sit amet, consectetur adipiscing elit 55',
+          'description': 'Surge una nueva canción en mi repertorio, bajo el nombre de Conecta2, para lanzar dicho tema decido hacer uso de un lyric video, en la que toda la letra de la canción va apareciendo a modo Karaoke.',
+          'description2': 'Para introducir esa idea creo esta animación de video utilizando la técnica de Motion Graphics.',
         },
         {
           'id': '9',
           'cover': 'Cover_TRex.jpg',
           'path': cover_TRex,
           'urlName': 'TRex',
-          'name': 'Proyecto T-REX',
+          'name': 'Proyecto T-Rex',
           'client': 'Personal',
           'thumb' : thumb_TRex,
           'img1' : img1_TRex,
           'img2' : img2_TRex,          
           'img3' : img3_TRex,
           'video': video_TRex,
-          'description': '99 Lorem ipsum dolor sit amet, consectetur adipiscing elit 99, 77 Lorem ipsum dolor sit amet, consectetur adipiscing elit 77, 77 Lorem ipsum dolor sit amet, consectetur adipiscing elit 55',
+          'description': '¿Hasta dónde puedo llevar el modelado 3D?, buscando el máximo realismo en el modelado 3D trato de juntar dos de mis pasiones, el 3D y los dinosaurios.',
+          'description2': 'Para este proyecto hice uso del software ZBrush para conseguir un nivel detalle mucho mayor en las formas y emplee 4 meses para desarrollar completamente el proyecto.',
         },
         {
           'id': '10',
           'cover': 'NadalBcn.jpg',
           'path': cover_Nadal_Bcn,
           'urlName': 'NadalBcn',
-          'name': 'Viu el teu Nadal',
+          'name': 'Viu el teu nadal',
           'client': 'Ajuntament de Barcelona',
           'thumb' : thumb_Nadal_Bcn,
           'video' : video_Nadal_Bcn,
@@ -242,20 +262,22 @@ export default {
           'video2' : video2_Nadal_Bcn,
           'thumb3' : thumb3_Nadal_Bcn,
           'video3' : video3_Nadal_Bcn,
-          'description': '10 Lorem ipsum dolor sit amet, consectetur adipiscing elit 10, 22 Lorem ipsum dolor sit amet, consectetur adipiscing elit 22, 22 Lorem ipsum dolor sit amet, consectetur adipiscing elit 22',
+          'description': 'La navidad llega a Horta-Guinardó con un montón de actividades para todas las edades. Cabalgatas de Papá Noel y los Reyes magos, pesebres, villancicos, talleres infantiles, espectáculos de caga tió, exposiciones, etc. Todos pueden participar en alguna de las celebraciones que habrá hasta el 7 de Enero.',
+          'description2': 'Para fomentar esta campaña, se realizan una serie de gráficas y videos que se muestran por toda Barcelona, mediante OPIS, los paneles del metro, farolas, etc.',
         },
         {
           'id': '11',
           'cover': 'Cover_Residu_Zero.jpg',
           'path': cover_ResiduZero,
           'urlName': 'ResiduZero',
-          'name': 'Residu Zero',
+          'name': 'Residu zero',
           'client': 'Ajuntament de Barcelona',
           'thumb' : thumb_ResiduZero,
           'img1' : img1_ResiduZero,
           'img2' : img2_ResiduZero,
           'video': video_ResiduZero,
-          'description': '11 Lorem ipsum dolor sit amet, consectetur adipiscing elit 11, 77 Lorem ipsum dolor sit amet, consectetur adipiscing elit 77, 77 Lorem ipsum dolor sit amet, consectetur adipiscing elit 55',
+          'description': 'La estrategia de \'residu zero\' está basada en la prevención, la reducción de la generación de residuos, la reutilización y la recogida selectiva, poniendo especial atención en la materia orgánica.',
+          'description2': 'Para ello desarrollamos una cápsula para usar en redes sociales, con una estética de videojuegos de 8bits, para acercar al público esta campaña y conseguir concienciar a los más jóvenes.',
         },
         {
           'id': '12',
@@ -272,7 +294,8 @@ export default {
           'img5' : img5_UrbanStyle,
           'img6' : img6_UrbanStyle,
           'video': '',
-          'description': '12 Lorem ipsum dolor sit amet, consectetur adipiscing elit 12, 66 Lorem ipsum dolor sit amet, consectetur adipiscing elit 66, 66 Lorem ipsum dolor sit amet, consectetur adipiscing elit 66',
+          'description': 'El arte está en la calle, este fue mi primer estímulo creativo, el interés por el arte urbano, el graffiti y las formas que se alejan mucho del lettering convencional o de imprenta.',
+          'description2': 'Como evolución a esta etapa, he creado estas ilustraciones de carácter personal en las que trato plasmar toda esta estética urbana a un formato mucho más digital y limpio.',
         },
         {
           'id': '13',
@@ -289,7 +312,9 @@ export default {
           'video3' : video3_Nadal_Mataro,
           'thumb4' : thumb4_Nadal_Mataro,
           'video4' : video4_Nadal_Mataro,
-          'description': '13 Lorem ipsum dolor sit amet, consectetur adipiscing elit 13, 22 Lorem ipsum dolor sit amet, consectetur adipiscing elit 22, 22 Lorem ipsum dolor sit amet, consectetur adipiscing elit 22',
+          'description': 'El ayuntamiento de Mataró nos encargó su campaña navideña. Y esta vez, hemos resuelto el pedido con algo divertido e incluso atrevido.',
+          'description2': 'Farolillos, galets y un tió fueron algunos de los elementos encargados de recordarnos que, en navidad, algunas cosas es mejor que nunca cambien aunque sean jerséis de los que pican- para que vivamos una fiestas realmente auténticas.',
+          'description3': 'Una campaña muy cercana que, durante unos días muy especiales, hizo que el espíritu de la navidad se viviese en Mataró más que nunca.',
         },
         {
           'id': '14',
@@ -305,7 +330,8 @@ export default {
           'video2' : video2_Benestar_Animal,
           'thumb3' : thumb3_Benestar_Animal,
           'video3' : video3_Benestar_Animal,
-          'description': '14 Lorem ipsum dolor sit amet, consectetur adipiscing elit 14, 22 Lorem ipsum dolor sit amet, consectetur adipiscing elit 22, 22 Lorem ipsum dolor sit amet, consectetur adipiscing elit 22',
+          'description': 'En Barcelona son muchos los hogares en los que vive algún animal doméstico y muchas las personas implicadas en su cuidado y atención, pero aún son muchos los animales de compañía que cada año se encuentran perdidos o abandonados y que necesitan atención y protección. Por ello, la convivencia, la defensa y la protección de los animales es una carrera de fondo.',
+          'description2': 'Para concienciar de todo esto realizamos esta campaña en la que a base de un ritmo de animación picado y saltos de posición de los elementos, conseguimos una estética que recuerda al celuloide, a como en antaño se cargaban las películas.',
         },
 
         {
@@ -320,7 +346,9 @@ export default {
           'img2' : img2_ATC,
           'img3' : img3_ATC,
           'video': video_ATC,
-          'description': '15 Lorem ipsum dolor sit amet, consectetur adipiscing elit 15, 77 Lorem ipsum dolor sit amet, consectetur adipiscing elit 77, 77 Lorem ipsum dolor sit amet, consectetur adipiscing elit 55',
+          'description': 'Como comunicado la Generalitat de Cataluña, entran en funcionamiento las nuevas oficinas y puntos de asistencia de la ATC. En concreto, se añadirán 15 oficinas territoriales y 13 compartidas que, junto con las ya existentes, sumarán un total de 32 oficinas que se complementarán con 161 puntos de información desplegados por todo el territorio.',
+          'description2': 'Sus principales funciones serán la gestión de expedientes tributarios, la cita previa, la autoliquidación de tributos, el registro de documentación y la información sobre tributos que gestiona la ATC y otros entes locales y supramunicipales.',
+          'description3': 'Para ello usamos la técnica de Motion graphics para mostrar toda esta información de una forma más dinámica y cercana a la población.',
         },
 
         {
@@ -335,8 +363,8 @@ export default {
           'img2' : img2_Acolliment_Familiar,
           'img3' : img3_Acolliment_Familiar,
           'img4' : img4_Acolliment_Familiar,
-          'video': '',
-          'description': '66 Lorem ipsum dolor sit amet, consectetur adipiscing elit 66, 66 Lorem ipsum dolor sit amet, consectetur adipiscing elit 66, 66 Lorem ipsum dolor sit amet, consectetur adipiscing elit 66',
+          'description': 'En Catalunya hay más de 100 niños que nos necesitaban, a la Generalitat de Catalunya, a nosotros y a muchas familias dispuestas a compartir todo su amor.',
+          'description2': 'Así que nos estrujamos el coco para hacer una campaña que, además de bonita, fuese capaz de hacer feliz a todos estos niños. ¿Lo conseguiremos? Estamos seguros de que sí.',
         },
 
         

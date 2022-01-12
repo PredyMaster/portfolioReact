@@ -17,14 +17,14 @@ const Contact = () => {
 
             <div className="content">
                 <span className="ContactCard">
-                    <a href="mailto:juanmailpascual@gmail.com" target="_blank" rel="noreferrer">JuanMailPascual@gmail.com</a>
+                    <a href="mailto:juanmailpascual@gmail.com?subject=MailWeb%20-%20" target="_blank" rel="noreferrer">JuanMailPascual@gmail.com</a>
                 </span>
 
                 <p className="text-bg">
                 { runCallback(() => {
                     const row = [];
                     for (var i = 0; i < 304; i++) {
-                    row.push(<a className="minilink" href="mailto:juanmailpascual@gmail.com" target="_blank" rel="noreferrer" key={i}>{mail}</a>);
+                    row.push(<a className="minilink" href="mailto:juanmailpascual@gmail.com?subject=MailWeb%20-%20" target="_blank" rel="noreferrer" key={i}>{mail}</a>);
                     }
                     return row;
                 }) }

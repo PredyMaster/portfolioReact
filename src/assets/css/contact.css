@@ -4,6 +4,7 @@
     overflow: hidden;
     position: relative;
     max-width: 1200px;
+    border-radius: var(--borderRadius);
 }
 
 .text-bg {
@@ -84,6 +85,11 @@ a.minilink:hover{
     .Bloque_Contact {
         max-width: 78vw;
     }
+    .ContactCard a {
+        font-size: 2em;
+        padding: 0.6em 0;
+        display: block;
+    }
 
 }
 
@@ -96,6 +102,11 @@ a.minilink:hover{
     .text-bg {
         height: 30em;
         overflow: hidden;
+    }
+    .ContactCard a {
+        font-size: 2em;
+        padding: 0.6em 0;
+        display: block;
     }
     
 }

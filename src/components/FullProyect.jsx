@@ -75,6 +75,10 @@ const FullProyect = (jsonParams) => {
                     <h2 className="h2">{selectJSON.name}</h2>
                     <h4 className="h4FullProyect">Cliente: <span className='cliente'>{selectJSON.client}</span></h4>
                     <p className="description">{selectJSON.description}</p>
+                    <p className="description">{selectJSON.description2}</p>
+                    <p className="description">{selectJSON.description3}</p>
+                    <p className="description">{selectJSON.description4}</p>
+
                 </div>
                 
                 {/* <p>Item anterior: {previousJSON.id + previousJSON.urlName} / Item actual: {selectJSON.id + selectJSON.urlName} / Item siguiente: {nextJSON.id + nextJSON.urlName}</p> */}
@@ -82,7 +86,7 @@ const FullProyect = (jsonParams) => {
                 
             </div>   
            
-            
+            <div className="spaceVideos"></div>
 
             
             {selectJSON.video &&
