@@ -1,12 +1,10 @@
-![Logo](https://predy.es//WebPredy_Backup_JSvanilla/images/Predy_logo_Azul.png)
+<div style="text-align:center" align="center">![Logo](https://predy.es//WebPredy_Backup_JSvanilla/images/Predy_logo_Azul.png)</div>
 
 # Portfolio Predy
 
 Este proyecto es un portfolio con el fin de mostrar mis trabajos de diseño e ilustración.
 
-## Available Scripts
-
-Este portfolio incluye:
+El portfolio incluye:
 
 ### `Inicio`
 
