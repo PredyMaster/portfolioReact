@@ -48,3 +48,15 @@
     transition-duration: 2s;
 
 }
+
+
+@media (max-width: 900px){
+}
+
+@media (max-width: 576px){
+
+    .iconRedesS {
+        margin: 0 2em;
+    }
+    
+}

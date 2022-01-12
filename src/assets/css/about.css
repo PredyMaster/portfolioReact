@@ -215,8 +215,12 @@
 
 @media (max-width: 600px){
 
-    .aboutInfo .h1{
-        line-height: 3rem;
+    .aboutInfo .h1 {
+        line-height: 2rem;
+        font-size: 2em;
+    }
+    .aboutInfo {
+        padding: 6em 1em;
     }
 
     .aboutDescription {

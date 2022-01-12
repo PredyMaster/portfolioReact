@@ -228,11 +228,16 @@ a img:hover{
     } 
 
     .infoProyect .proyectTit .h2{
-      font-size: 3.4em;
+      font-size: 3em;
     }
 
     .proyectTit .description {
       font-size: 1.5em;
+      margin: 2em 0.4em;
+    }
+
+    .h4FullProyect {
+      font-size: 1.2rem;
     }
 }
 

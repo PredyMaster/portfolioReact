@@ -20,7 +20,7 @@ const About = () => {
                 <div className="aboutDescription text-focus-in">
                     <p>¡Hola! Soy <span class="dest">Predy</span>. Desde siempre me ha interesado el arte en todas sus formas. Mi curiosidad y mi afán de aprendizaje me han llevado a tratar de entender y dominar campos como <span class="dest">la ilustración</span>, <span class="dest">la música</span>, <span class="dest">el vídeo</span> y <span class="dest">el 3D</span>.</p>
 
-                    <p>Sé que estás buscando una etiqueta que atribuirme y un grupo en el cuál encasillarme, pero yo no funciono así. Simplemente me gusta pensar una idea, un objetivo, y trabajar hasta conseguir un contenido de gran valor.</p>
+                    <p>Sé que estás buscando una etiqueta que atribuirme y un grupo en el cual encasillarme, pero yo no funciono así. Simplemente, me gusta pensar una idea, un objetivo, y trabajar hasta conseguir un contenido de gran valor.</p>
 
                     <p>No estoy a favor de los límites, mi meta es que mis trabajos impresionen e ilusionen a los clientes. Aportar un enfoque original es lo que me diferencia del resto, bueno... eso y que además aporto una personalidad <span class="dest">divertida</span> al grupo de trabajo.</p>
 

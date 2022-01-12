@@ -23,6 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://www.predy.es/",
   "eslintConfig": {
     "extends": [
       "react-app",

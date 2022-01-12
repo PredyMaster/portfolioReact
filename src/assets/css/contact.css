@@ -11,7 +11,7 @@
     
     font-size: 12px;
     line-height: 12px;
-    background: url(https://predy.es/images/Predys.jpg);
+    background: url(https://predy.es/WebPredy_Backup_JSvanilla/images/Predys.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -97,7 +97,7 @@ a.minilink:hover{
 
     .Bloque_Contact {
         max-width: 78vw;
-        margin-bottom: 3em;
+        margin-bottom: 0;
     }
     .text-bg {
         height: 30em;
@@ -107,6 +107,13 @@ a.minilink:hover{
         font-size: 2em;
         padding: 0.6em 0;
         display: block;
+    }
+    .aboutInfo .h3 {
+        font-size: 2em;
+    }
+
+    .extraTextContact {
+        margin: 3em 0 0;
     }
     
 }

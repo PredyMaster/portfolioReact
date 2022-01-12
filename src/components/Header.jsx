@@ -20,7 +20,7 @@ const Header = () => {
                             <NavLink exact to="/proyects?work=Clotilde" activeClassName="active">Trabajos</NavLink>
                         </li>
                         <li>
-                            <NavLink exact to="/about" activeClassName="active">Sobre mi</NavLink>
+                            <NavLink exact to="/about" activeClassName="active">Sobre mí</NavLink>
                         </li>
                         <li>
                             <NavLink exact to="/contact" activeClassName="active">Contacto</NavLink>

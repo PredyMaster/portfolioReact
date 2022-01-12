@@ -10,7 +10,7 @@ const Proyect = (works) => {
     
     return (
         <NavLink exact to={`/proyects?work=${works.works.urlName}`} className="linkProyect scale-in-center" onMouseEnter={toggleHover} onMouseLeave={toggleHover}>
-            <img loading="lazy" className={hovered ? 'imgProyect Desaturate' : 'imgProyect'} src={works.works.path} alt={works.works.name} />
+            <img className={hovered ? 'imgProyect Desaturate' : 'imgProyect'} src={works.works.path} alt={works.works.name} />
             <div className={hovered ? 'Overlay swing-in-top-fwd' : 'Overlay'}>
                 <div className="subOverlay">
                     <h3 className="overlayTitle">{works.works.name}</h3>

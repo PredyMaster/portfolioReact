@@ -123,5 +123,6 @@ li a:hover{
   }
   li a {
     font-size: 1em;
+    padding: 1em .7em;
   }
 }

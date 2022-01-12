@@ -62,7 +62,7 @@ const FullProyect = (jsonParams) => {
                 <div className="navigationProyects">
                     <button className="navLeft miButton" onClick={handlePrev}>Anterior</button>
 
-                    <img loading="lazy" alt="Thumbnail" className="TestImage scale-in-center" src={selectJSON.path} />
+                    <img alt="Thumbnail" className="TestImage scale-in-center" src={selectJSON.path} />
 
                     <button className="navRight miButton" onClick={handleNext}>Siguiente</button>
                 </div>
@@ -144,27 +144,27 @@ const FullProyect = (jsonParams) => {
             }
 
             {selectJSON.img1 &&
-                <img className='img1_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img1} />
+                <img loading="lazy" className='img1_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img1} />
             }
 
             {selectJSON.img2 &&
-                <img className='img2_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img2} />
+                <img loading="lazy" className='img2_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img2} />
             }
 
             {selectJSON.img3 &&
-                <img className='img3_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img3} />
+                <img loading="lazy" className='img3_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img3} />
             }
 
             {selectJSON.img4 &&
-                <img className='img4_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img4} />
+                <img loading="lazy" className='img4_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img4} />
             }
 
             {selectJSON.img5 &&
-                <img className='img5_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img5} />
+                <img loading="lazy" className='img5_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img5} />
             }
 
             {selectJSON.img6 &&
-                <img className='img6_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img6} />
+                <img loading="lazy" className='img6_FullProyect imgsFullPoyects' alt={selectJSON.name} src={selectJSON.img6} />
             }
             
 
