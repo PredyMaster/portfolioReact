@@ -5,8 +5,6 @@ import '../assets/css/fullProyect.css';
 
 const FullProyect = (jsonParams) => {
 
-    /* const { nameProyect } = useParams();
-    const [ nameURL, setNameUrl] = useState({}); */
     const [ selectJSON, setSelecJSON] = useState({});
     const [ previousJSON, setPreviousJSON] = useState({});
     const [ nextJSON, setNextJSON] = useState({});
@@ -15,7 +13,6 @@ const FullProyect = (jsonParams) => {
     let query = new URLSearchParams(search);
     let workURL = query.get('work');
     let history = useHistory()
-
 
     const handlePrev = () => { history.push({search: `?work=${previousJSON.urlName}`}) }
     const handleNext = () => { history.push({search: `?work=${nextJSON.urlName}`}) } 
@@ -37,7 +34,11 @@ const FullProyect = (jsonParams) => {
     }
 
     useEffect(() => {
-        
+
+        console.log("UseEffect en FullProyect");
+        console.log(selectJSON.name);
+        console.log("---------------------------");
+
         listWorks.works.map(works => {
 
             if(workURL === null || works.id === 1){ setSelecJSON(works);}
@@ -67,10 +68,6 @@ const FullProyect = (jsonParams) => {
                     <button className="navRight miButton" onClick={handleNext}>Siguiente</button>
                 </div>
                 
-                {/* <div className="proyectCoverImage">
-                    <img loading="lazy" className="TestImage" src={selectJSON.path} />
-                </div> */}
-                
                 <div className="proyectTit">
                     <h2 className="h2">{selectJSON.name}</h2>
                     <h4 className="h4FullProyect">Cliente: <span className='cliente'>{selectJSON.client}</span></h4>
@@ -79,10 +76,7 @@ const FullProyect = (jsonParams) => {
                     <p className="description">{selectJSON.description3}</p>
                     <p className="description">{selectJSON.description4}</p>
 
-                </div>
-                
-                {/* <p>Item anterior: {previousJSON.id + previousJSON.urlName} / Item actual: {selectJSON.id + selectJSON.urlName} / Item siguiente: {nextJSON.id + nextJSON.urlName}</p> */}
-                
+                </div>                
                 
             </div>   
            
@@ -92,8 +86,6 @@ const FullProyect = (jsonParams) => {
             {selectJSON.video &&
 
                 <React.Fragment>
-                    
-
                     
 
                     {selectJSON.hasOwnProperty("video") &&

@@ -13,8 +13,6 @@ const Contact = () => {
 
         <div className="Bloque_Contact">
 
-            
-
             <div className="content">
                 <span className="ContactCard">
                     <a href="mailto:juanmailpascual@gmail.com?subject=MailWeb%20-%20" target="_blank" rel="noreferrer">JuanMailPascual@gmail.com</a>
@@ -34,7 +32,6 @@ const Contact = () => {
             <h2 className="extraTextContact">No dudes en ponerte en contacto conmigo<br/> para cualquier consulta.</h2>
 
         </div>
-        
 
     )
 }

@@ -10,7 +10,6 @@ const Header = () => {
             <h1 className="h1Principal tracking-in-expand">JUANMA PASCUAL</h1>
             <h2 className="h2Principal tracking-in-expand">PORTFOLIO</h2>
 
-            {/* Menu -->*/}
             <nav id="menu">
                     <ul>
                         <li>
@@ -29,7 +28,6 @@ const Header = () => {
 
                     </ul>
                 </nav>
-                {/* <hr className="hr" /> */}
 
                 <div className="hr"></div>
         </header>

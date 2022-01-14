@@ -1,0 +1,44 @@
+
+.ErrorBloque{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ErrorContent{
+    display: flex;
+    flex-flow: column;
+}
+
+.ErrorImage{
+    width: 300px;
+    border-radius: var(--borderRadius);
+}
+
+.Error_title{
+    color: var(--miBlue);
+    font-size: 5em;
+    padding: 0 50px;
+}
+
+.Pagina_NoEncontrada{
+    color: var(--miGray2);
+    font-size: 2em;
+    padding: 0 50px;
+}
+
+@media (max-width: 900px){
+  
+}
+  
+@media (max-width: 576px){
+
+    .ErrorBloque {
+        flex-flow: column;
+    }
+    .Error_title{
+        margin-top: 25px;
+    }
+}
